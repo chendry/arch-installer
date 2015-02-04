@@ -2,3 +2,5 @@
 /out
 /airootfs/root/packages
 /airootfs/root/rootfs-private
+/airootfs/etc/netctl
+/airootfs/usr/lib/firmware/b43

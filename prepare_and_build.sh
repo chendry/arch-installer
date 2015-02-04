@@ -16,5 +16,8 @@ do
   cp --parents -r $i ./airootfs/root/rootfs-private
 done
 
+cp --parents /etc/netctl/wlp4s0b1-Chad ./airootfs
+cp --parents -r /usr/lib/firmware/b43 ./airootfs
+
 sudo rm -rf ./work
 sudo ./build.sh -v
