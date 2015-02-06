@@ -15,7 +15,7 @@ git clone git@bitbucket.org:chendry/arch-installer.git
 
 # run each installation script in sequence, logging the results
 mkdir logs
-cd arch-install/install-scripts
+cd arch-installer/install-scripts
 for i in *.sh
 do
   echo $i
